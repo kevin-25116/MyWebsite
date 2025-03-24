@@ -1,0 +1,42 @@
+.image1{
+    float: left;
+    width: 33.33%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://th.bing.com/th/id/OIP.zkAfNxT8nCZNlTlTyI6tZAHaE8?rs=1&pid=ImgDetMain);
+}
+.image2{
+    float: left;
+    width: 33.33%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://th.bing.com/th/id/OIP.8KD6peP3TFt2dUXpB1y__wHaEy?rs=1&pid=ImgDetMain);
+}
+.image3{
+    float: left;
+    width: 33.33%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://th.bing.com/th/id/R.e640fc18e8064b6e858b1c84df2c90eb?rik=thJFyQOPovvh6g&riu=http%3a%2f%2feskipaper.com%2fimages%2famazing-new-zealand-wallpaper-1.jpg&ehk=OB%2f4k39KbpWfaDWBGzibr0AJFrCab7TSuRTIWrDflfo%3d&risl=&pid=ImgRaw&r=0);
+}
+
+.image-overlay{
+    width: 100%;
+    height: 100px;
+    background-color: #fcc8c287;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 10px;
+}
+.image-overlay h1{
+    color: #1B065E;
+}
+.image-overlay:hover{
+    background-color:transparent
+}

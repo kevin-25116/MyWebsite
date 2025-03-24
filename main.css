@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=McLaren&family=Quicksand:wght@300..700&family=Shadows+Into+Light&display=swap');
+body {
+    font-family: "Quicksand", serif;
+    margin: 0; /* remove all body margins */
+    font-size: 120%;
+   }
+   header {
+    display: flex;
+    align-items: center;
+    background: #FF47DA;
+   }
+   header h1 {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 400%;
+    font-weight: lighter;
+    color: #1B065E;
+   }
+   nav {
+    background-color: #FF87AB;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    display: flex; /* display the children of this element as flexible boxes */
+    align-items: center; /* Align child flexible boxes in the vertical center */
+   }
+   nav p {
+    text-align: center;
+    flex-basis: 100px; /* give each paragraph the same base width */
+    flex-grow: 1; /* allow each paragraph to grow evenly to fill up the parent nav element */
+   }
+  nav a {
+    color:#1B065E;
+    text-decoration: none;
+    font-weight:bold;
+   }
+   nav a:hover {
+    color: #FF47DA;
+   }
+   footer {
+    background-color: #F5ECCD; /* background-color or background both work */
+    position: fixed; /* fixed to the bottom of the viewport */
+    bottom: 0; /* start 0 pixels from the bottom of the viewport */
+    left: 0; /* start 0 pixels from the left of the viewport */
+    width: 100%; /* set the width to 100% of the viewport */
+    height: 3em; /* set the footer elements height to 3 times larger than its current font size */
+    border-top: solid black 1px; /* have to put the unit, e.g. px or %, if not zero */
+   }
+   h1, h2 {
+    font-family: "McLaren", cursive;
+    color: #FF87AB;
+   }
+   .main {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 4em; /* larger margin to make room for the footer */
+   }
+   .center {
+    text-align: center;
+   }
+   .wrap {
+    float: right;
+   }

@@ -1,0 +1,11 @@
+.grid-items {
+    overflow: hidden;
+    position: relative;
+}
+.grid-items img {
+    transition: transform 0.2s;
+}
+.grid-items:hover img {
+    transform: scale(1.2);
+    order: 0;
+}

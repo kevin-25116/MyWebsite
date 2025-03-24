@@ -1,0 +1,21 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.grid-items{
+    border: 10px solid #ff47da6e;
+    padding: 20px;
+    height: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+.grid-items img{
+    height: 100%;
+    width: 100%;
+}
+@media (max-width: 800px) {
+    .grid-container {
+grid-template-columns: auto auto;
+}           
+}
