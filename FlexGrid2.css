@@ -1,8 +1,8 @@
-.grid-container2 {
+.gif-container {
     display: grid;
     grid-template-columns: auto;
 }
-.grid-items2{
+.gif-items{
     border: 1px solid #ffffff;
     padding: 1px;
     height: 300px;
@@ -10,12 +10,12 @@
     text-align: center;
     font-weight: bold;
 }
-.grid-items2 img{
+.gif-items img{
     height: 100%;
     width: 100%;
 }
 @media (max-width: 800px) {
-    .grid-container2 {
+    .gif-container {
 grid-template-columns: auto;
 }           
 }
