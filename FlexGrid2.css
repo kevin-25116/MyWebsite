@@ -1,6 +1,7 @@
 .gif-container {
     display: grid;
     grid-template-columns: auto;
+    position: relative;
 }
 .gif-items{
     border: 1px solid #ffffff;
@@ -19,3 +20,4 @@
 grid-template-columns: auto;
 }           
 }
+
