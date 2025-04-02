@@ -19,3 +19,8 @@
 grid-template-columns: auto auto;
 }           
 }
+@media (max-width: 600px) {
+    .grid-container {
+grid-template-columns: auto;
+}           
+}
